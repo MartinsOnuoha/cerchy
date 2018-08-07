@@ -25,14 +25,16 @@
 	}
 	ul.slicknav_nav {
 		position: absolute;
-		background: #000529;
+		background: #fff;
+		box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+/*		background: #000529;
 		background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%);
 		background: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
-		background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+		background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);*/
 		right: 15px;
 		top: 100%;
 		z-index: 9;
-		border: 2px solid #fff;
+		/*border: 2px solid #fff;*/
 		padding: 5px 10px 10px;
 		margin-top: 8px;
 	}
@@ -46,12 +48,13 @@
 		border: 1px solid transparent;
 		margin: 8px 3px 0;
 		display: block;
+		color: #3E4095;
 	}
 	.slicknav_nav a:hover {
 		background: transparent;
 		border-radius: 0;
-		color: #fff;
-		border: 1px solid #fff;
+		color: #9396ed;
+		border-bottom: 1px solid #3E4095;
 	}
 	.header {
 		padding: 15px 0;

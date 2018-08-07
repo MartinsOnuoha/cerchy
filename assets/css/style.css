@@ -424,7 +424,7 @@ input::-webkit-input-placeholder {
 }
 .hero-area-content p {
     margin: 28px 0 25px;
-    font-size: 20px;
+    font-size: 14px;
 }
 .hero-area-content .appao-btn {
     margin-top: 15px;
@@ -1258,11 +1258,13 @@ h4.post-title a {
 	display: none;
     height: 40px;
     line-height: 39px;
-    background: #000;
+    /*background: #000;*/
+    background: #3E4095;
 	display: none;
     color: #fff;
     position: fixed;
-    border: 1px solid #fff;
+    border: 1px solid #3E4095;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     border-radius: 100%;
     bottom: 15px;
     right: 15px;
@@ -1290,7 +1292,7 @@ h4.post-title a {
 /*--------------------------------------
 ------ INDEX SLIDER PAGE CSS START -----
 ---------------------------------------*/
-.hero-area-slider .owl-nav div {
+.slider .owl-nav div {
 	opacity: 0;
 }
 .hero-area-slider:hover .owl-nav div {

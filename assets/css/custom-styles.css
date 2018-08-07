@@ -25,4 +25,7 @@
     height: 0;
     margin: auto;
 }
+.slicknav_btn {
+	background-color: transparent !important;
+}
 
