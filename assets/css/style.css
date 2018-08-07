@@ -439,9 +439,22 @@ input::-webkit-input-placeholder {
 }
 @media only screen and (max-width: 600px) {
     .hand-mockup {
-        position: absolute;
+        /*position: absolute;*/
         /*bottom: -2px;*/
-        max-width: 100%;
+        /*max-width: 100%;*/
+        /*width: 700px;*/
+/*        margin-left: 0 auto;
+        margin-right: 0 auto;*/
+
+    }
+    .hand-mockup {
+        width: 500px;
+        /*margin-right: auto;*/
+        /*margin-left: auto;*/
+    }
+    .hand-mockup img {
+        margin-left: -13em;
+
     }
 }
 /*------------------------------------
